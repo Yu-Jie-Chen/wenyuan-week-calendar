@@ -1,1 +1,17 @@
-{"name":"wenyuan-week-calendar","version":"1.0.0","private":true,"type":"module","output":"dist","scripts":{"dev":"vite --host 127.0.0.1","build":"vite build"},"dependencies":{"@lark-base-open/js-sdk":"1.0.2"},"devDependencies":{"vite":"5.4.21"}}
+{
+  "name": "wenyuan-week-calendar",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "output": "docs",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build --outDir docs"
+  },
+  "dependencies": {
+    "@lark-base-open/js-sdk": "1.0.2"
+  },
+  "devDependencies": {
+    "vite": "5.4.21"
+  }
+}

@@ -21,10 +21,11 @@
 
 ## 开发与托管
 
-需要 Node.js 18 或以上。运行 `npm ci`，然后运行 `npm run build`。构建产物为 `dist`，已在 package.json 的 output 字段声明。运行 `npm run dev` 可本地调试，访问 `http://127.0.0.1:5188/?preview=1` 可查看虚拟课程预览。
+需要 Node.js 18 或以上。运行 `npm ci`，然后运行 `npm run build`。构建产物为 `docs`，已在 package.json 的 output 字段声明。运行 `npm run dev` 可本地调试，访问 `http://127.0.0.1:5188/?preview=1` 可查看虚拟课程预览。
 
 预览仅使用明确标注的虚拟示例；仓库不含学生、老师或课程明细数据，也不含访问密钥。
 
 问题反馈：https://github.com/Yu-Jie-Chen/wenyuan-week-calendar/issues
 
 使用说明：[用户协议](./TERMS.md) · [隐私说明](./PRIVACY.md)
+
